@@ -9,8 +9,8 @@ from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, Messa
 # load .env in local dev; Railway will use env vars set in its dashboard
 load_dotenv()
 
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+TELEGRAM_TOKEN = os.getenv("8364249900:AAHwMq2PDpIUATHHoBsNyBgvc8GgbnMeqso")
+OPENAI_API_KEY = os.getenv("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")
 CREATOR_USERNAME = os.getenv("CREATOR_USERNAME", "your_username_here")  # set this in env vars
 
 if not TELEGRAM_TOKEN or not OPENAI_API_KEY:
@@ -80,4 +80,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
