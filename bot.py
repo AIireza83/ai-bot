@@ -27,7 +27,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     welcome = "سلام! من یک ربات هوش مصنوعی هستم — هر سوالی داشتی بپرس 🙂"
     # دکمه ارتباط با سازنده
     keyboard = [
-        [InlineKeyboardButton("تماس با سازنده", url=f"https://t.me/{CREATOR_USERNAME}")]
+        [InlineKeyboardButton("تماس با سازنده", url=f"https://t.me/AIireza_1383")]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     await update.message.reply_text(welcome, reply_markup=reply_markup)
@@ -80,3 +80,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
